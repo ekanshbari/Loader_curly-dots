@@ -1,0 +1,618 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #37474f;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.cell {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  flex-grow: 1;
+  padding: 100px;
+}
+.cell:nth-child(1) .loader .dot:nth-child(1) {
+  transform: rotate(0deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(1):after {
+  animation-delay: 0s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(2) {
+  transform: rotate(15.652173913deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(2):after {
+  animation-delay: 0.1739130435s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(3) {
+  transform: rotate(31.3043478261deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(3):after {
+  animation-delay: 0.347826087s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(4) {
+  transform: rotate(46.9565217391deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(4):after {
+  animation-delay: 0.5217391304s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(5) {
+  transform: rotate(62.6086956522deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(5):after {
+  animation-delay: 0.6956521739s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(6) {
+  transform: rotate(78.2608695652deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(6):after {
+  animation-delay: 0.8695652174s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(7) {
+  transform: rotate(93.9130434783deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(7):after {
+  animation-delay: 1.0434782609s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(8) {
+  transform: rotate(109.5652173913deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(8):after {
+  animation-delay: 1.2173913043s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(9) {
+  transform: rotate(125.2173913043deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(9):after {
+  animation-delay: 1.3913043478s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(10) {
+  transform: rotate(140.8695652174deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(10):after {
+  animation-delay: 1.5652173913s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(11) {
+  transform: rotate(156.5217391304deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(11):after {
+  animation-delay: 1.7391304348s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(12) {
+  transform: rotate(172.1739130435deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(12):after {
+  animation-delay: 1.9130434783s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(13) {
+  transform: rotate(187.8260869565deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(13):after {
+  animation-delay: 2.0869565217s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(14) {
+  transform: rotate(203.4782608696deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(14):after {
+  animation-delay: 2.2608695652s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(15) {
+  transform: rotate(219.1304347826deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(15):after {
+  animation-delay: 2.4347826087s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(16) {
+  transform: rotate(234.7826086957deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(16):after {
+  animation-delay: 2.6086956522s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(17) {
+  transform: rotate(250.4347826087deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(17):after {
+  animation-delay: 2.7826086957s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(18) {
+  transform: rotate(266.0869565217deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(18):after {
+  animation-delay: 2.9565217391s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(19) {
+  transform: rotate(281.7391304348deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(19):after {
+  animation-delay: 3.1304347826s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(20) {
+  transform: rotate(297.3913043478deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(20):after {
+  animation-delay: 3.3043478261s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(21) {
+  transform: rotate(313.0434782609deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(21):after {
+  animation-delay: 3.4782608696s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(22) {
+  transform: rotate(328.6956521739deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(22):after {
+  animation-delay: 3.652173913s;
+}
+.cell:nth-child(1) .loader .dot:nth-child(23) {
+  transform: rotate(344.347826087deg);
+}
+.cell:nth-child(1) .loader .dot:nth-child(23):after {
+  animation-delay: 3.8260869565s;
+}
+.cell:nth-child(1) .loader .dot:after {
+  animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.cell:nth-child(2) .loader .dot:nth-child(1) {
+  transform: rotate(0deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(1):after {
+  animation-delay: 0s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(2) {
+  transform: rotate(15.652173913deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(2):after {
+  animation-delay: 0.0108695652s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(3) {
+  transform: rotate(31.3043478261deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(3):after {
+  animation-delay: 0.0217391304s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(4) {
+  transform: rotate(46.9565217391deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(4):after {
+  animation-delay: 0.0326086957s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(5) {
+  transform: rotate(62.6086956522deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(5):after {
+  animation-delay: 0.0434782609s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(6) {
+  transform: rotate(78.2608695652deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(6):after {
+  animation-delay: 0.0543478261s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(7) {
+  transform: rotate(93.9130434783deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(7):after {
+  animation-delay: 0.0652173913s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(8) {
+  transform: rotate(109.5652173913deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(8):after {
+  animation-delay: 0.0760869565s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(9) {
+  transform: rotate(125.2173913043deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(9):after {
+  animation-delay: 0.0869565217s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(10) {
+  transform: rotate(140.8695652174deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(10):after {
+  animation-delay: 0.097826087s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(11) {
+  transform: rotate(156.5217391304deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(11):after {
+  animation-delay: 0.1086956522s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(12) {
+  transform: rotate(172.1739130435deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(12):after {
+  animation-delay: 0.1195652174s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(13) {
+  transform: rotate(187.8260869565deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(13):after {
+  animation-delay: 0.1304347826s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(14) {
+  transform: rotate(203.4782608696deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(14):after {
+  animation-delay: 0.1413043478s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(15) {
+  transform: rotate(219.1304347826deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(15):after {
+  animation-delay: 0.152173913s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(16) {
+  transform: rotate(234.7826086957deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(16):after {
+  animation-delay: 0.1630434783s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(17) {
+  transform: rotate(250.4347826087deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(17):after {
+  animation-delay: 0.1739130435s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(18) {
+  transform: rotate(266.0869565217deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(18):after {
+  animation-delay: 0.1847826087s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(19) {
+  transform: rotate(281.7391304348deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(19):after {
+  animation-delay: 0.1956521739s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(20) {
+  transform: rotate(297.3913043478deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(20):after {
+  animation-delay: 0.2065217391s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(21) {
+  transform: rotate(313.0434782609deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(21):after {
+  animation-delay: 0.2173913043s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(22) {
+  transform: rotate(328.6956521739deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(22):after {
+  animation-delay: 0.2282608696s;
+}
+.cell:nth-child(2) .loader .dot:nth-child(23) {
+  transform: rotate(344.347826087deg);
+}
+.cell:nth-child(2) .loader .dot:nth-child(23):after {
+  animation-delay: 0.2391304348s;
+}
+.cell:nth-child(2) .loader .dot:after {
+  animation-timing-function: cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+.cell:nth-child(3) .loader .dot:nth-child(1) {
+  transform: rotate(0deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(1):after {
+  animation-delay: 0s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(2) {
+  transform: rotate(15.652173913deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(2):after {
+  animation-delay: 0.0434782609s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(3) {
+  transform: rotate(31.3043478261deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(3):after {
+  animation-delay: 0.0869565217s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(4) {
+  transform: rotate(46.9565217391deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(4):after {
+  animation-delay: 0.1304347826s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(5) {
+  transform: rotate(62.6086956522deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(5):after {
+  animation-delay: 0.1739130435s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(6) {
+  transform: rotate(78.2608695652deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(6):after {
+  animation-delay: 0.2173913043s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(7) {
+  transform: rotate(93.9130434783deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(7):after {
+  animation-delay: 0.2608695652s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(8) {
+  transform: rotate(109.5652173913deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(8):after {
+  animation-delay: 0.3043478261s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(9) {
+  transform: rotate(125.2173913043deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(9):after {
+  animation-delay: 0.347826087s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(10) {
+  transform: rotate(140.8695652174deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(10):after {
+  animation-delay: 0.3913043478s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(11) {
+  transform: rotate(156.5217391304deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(11):after {
+  animation-delay: 0.4347826087s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(12) {
+  transform: rotate(172.1739130435deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(12):after {
+  animation-delay: 0.4782608696s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(13) {
+  transform: rotate(187.8260869565deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(13):after {
+  animation-delay: 0.5217391304s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(14) {
+  transform: rotate(203.4782608696deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(14):after {
+  animation-delay: 0.5652173913s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(15) {
+  transform: rotate(219.1304347826deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(15):after {
+  animation-delay: 0.6086956522s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(16) {
+  transform: rotate(234.7826086957deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(16):after {
+  animation-delay: 0.652173913s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(17) {
+  transform: rotate(250.4347826087deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(17):after {
+  animation-delay: 0.6956521739s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(18) {
+  transform: rotate(266.0869565217deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(18):after {
+  animation-delay: 0.7391304348s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(19) {
+  transform: rotate(281.7391304348deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(19):after {
+  animation-delay: 0.7826086957s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(20) {
+  transform: rotate(297.3913043478deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(20):after {
+  animation-delay: 0.8260869565s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(21) {
+  transform: rotate(313.0434782609deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(21):after {
+  animation-delay: 0.8695652174s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(22) {
+  transform: rotate(328.6956521739deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(22):after {
+  animation-delay: 0.9130434783s;
+}
+.cell:nth-child(3) .loader .dot:nth-child(23) {
+  transform: rotate(344.347826087deg);
+}
+.cell:nth-child(3) .loader .dot:nth-child(23):after {
+  animation-delay: 0.9565217391s;
+}
+.cell:nth-child(3) .loader .dot:after {
+  animation-timing-function: cubic-bezier(0.46, 0.03, 0.52, 0.96);
+}
+.cell:nth-child(4) .loader .dot:nth-child(1) {
+  transform: rotate(0deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(1):after {
+  animation-delay: 0s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(2) {
+  transform: rotate(15.652173913deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(2):after {
+  animation-delay: 0.0869565217s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(3) {
+  transform: rotate(31.3043478261deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(3):after {
+  animation-delay: 0.1739130435s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(4) {
+  transform: rotate(46.9565217391deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(4):after {
+  animation-delay: 0.2608695652s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(5) {
+  transform: rotate(62.6086956522deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(5):after {
+  animation-delay: 0.347826087s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(6) {
+  transform: rotate(78.2608695652deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(6):after {
+  animation-delay: 0.4347826087s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(7) {
+  transform: rotate(93.9130434783deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(7):after {
+  animation-delay: 0.5217391304s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(8) {
+  transform: rotate(109.5652173913deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(8):after {
+  animation-delay: 0.6086956522s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(9) {
+  transform: rotate(125.2173913043deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(9):after {
+  animation-delay: 0.6956521739s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(10) {
+  transform: rotate(140.8695652174deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(10):after {
+  animation-delay: 0.7826086957s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(11) {
+  transform: rotate(156.5217391304deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(11):after {
+  animation-delay: 0.8695652174s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(12) {
+  transform: rotate(172.1739130435deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(12):after {
+  animation-delay: 0.9565217391s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(13) {
+  transform: rotate(187.8260869565deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(13):after {
+  animation-delay: 1.0434782609s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(14) {
+  transform: rotate(203.4782608696deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(14):after {
+  animation-delay: 1.1304347826s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(15) {
+  transform: rotate(219.1304347826deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(15):after {
+  animation-delay: 1.2173913043s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(16) {
+  transform: rotate(234.7826086957deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(16):after {
+  animation-delay: 1.3043478261s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(17) {
+  transform: rotate(250.4347826087deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(17):after {
+  animation-delay: 1.3913043478s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(18) {
+  transform: rotate(266.0869565217deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(18):after {
+  animation-delay: 1.4782608696s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(19) {
+  transform: rotate(281.7391304348deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(19):after {
+  animation-delay: 1.5652173913s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(20) {
+  transform: rotate(297.3913043478deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(20):after {
+  animation-delay: 1.652173913s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(21) {
+  transform: rotate(313.0434782609deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(21):after {
+  animation-delay: 1.7391304348s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(22) {
+  transform: rotate(328.6956521739deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(22):after {
+  animation-delay: 1.8260869565s;
+}
+.cell:nth-child(4) .loader .dot:nth-child(23) {
+  transform: rotate(344.347826087deg);
+}
+.cell:nth-child(4) .loader .dot:nth-child(23):after {
+  animation-delay: 1.9130434783s;
+}
+.cell:nth-child(4) .loader .dot:after {
+  animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.dot {
+  position: absolute;
+  top: -60px;
+  height: 120px;
+}
+.dot:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%) translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #ff4081;
+  border-radius: 100%;
+  transform: scale(1);
+  animation: a 1s infinite alternate;
+}
+@keyframes a {
+  to {
+    top: 100%;
+    transform: scale(0.5);
+    background-color: #ffab40;
+  }
+}
